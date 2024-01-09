@@ -33,8 +33,8 @@ end
 % Parse out the distillate composition
 x1 = x(:,1);
 x2 = x(:,14);
-datax_d=[datax_d x1];
-datax_b=[datax_b x2];
+%datax_d=[datax_d x1];
+%datax_b=[datax_b x2];
 %Plot the results
 figure(1);
  plot(t,x1);
